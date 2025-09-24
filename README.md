@@ -1,2 +1,2 @@
 # sample
-sample
+ソースコードをダウンロードし、index.htmlを開く
