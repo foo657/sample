@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CafeFoRest</title>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="header_wrapper">
+			<div class="logo_content">
+				<p class="logo">cafe forest</p>
+			</div>
+			<div class="gnav_toggle" id="gnav_toggle">
+				<span class="toggle_line" id="toggle_line"></span>
+				<span class="toggle_line" id="toggle_line"></span>
+				<span class="toggle_line" id="toggle_line"></span>
+			</div>
+			<nav class="gnav_content" id="gnav_content">
+				<ul>
+					<li><a href="#menulink">メニュー</a></li>
+					<li><a href="#accesslink">店舗案内</a></li>
+					<li><a href="#contactlink">お問い合わせ</a></li>
+				</ul>
+			</nav>
+		</div>
+		<main>
+			<div class="firstview_wrapper">
+				<section class="about">
+					<h1 class="copy" id="copy">
+						<p>厳選した小麦とこだわりのコーヒー<br>至福の一口と癒しの時間をあなたへ</p>
+					</h1>
+					<img src="img\waffle.jpg" alt="ワッフル" class="first_img" class="first_img">
+					<div class="article">
+						<div class="article_img_area">
+							<h2>国産小麦・北海道産牛乳・卵は名古屋コーチンを100%使用</h2>
+						</div>
+						<img src="img\egg.jpg" alt="たまご" class="article_img">
+					</div>
+					<div class="article_innar_coffee">
+						<img src="img\coffee.jpg" alt="コーヒー豆" class="article_img">
+						<div class="article_img_area">
+							<h2>季節に合わせて輸入するコーヒー豆を厳選。豆はご注文いただいてから挽きます。</h2>
+						</div>
+					</div>
+					<p class="title" id="menulink">メニュー</p>
+					<div class="manu_wrapper">
+						<div class="menu_innar">
+							<img src="img\tart.jpg" alt="タルト" class="menu_img">
+							<p>いちごのタルト</p>
+							<p>680円</p>
+						</div>
+						<div class="menu_innar">
+							<img src="img\restaurant.jpg" alt="きいちごのパンケーキ" class="menu_img">
+							<p>きいちごのパンケーキ</p>
+							<p>1,080円</p>
+						</div>
+						<div class="menu_innar">
+							<img src="img\chococak.jpg" alt="チョコレートケーキ" class="menu_img">
+							<p>チョコレートケーキ</p>
+							<p>580円</p>
+						</div>
+						<div class="menu_innar">
+							<img src="img\orange-cake.jpg" alt="オレンジケーキ" class="menu_img">
+							<p>オレンジケーキ</p>
+							<p>580円</p>
+						</div>
+						<div class="menu_innar">
+							<img src="img\parfait.jpg" alt="パフェ" class="menu_img">
+							<p>チョコレートパフェ</p>
+							<p>480円</p>
+						</div>
+						<div class="menu_innar">
+							<img src="img\waffles.jpg" alt="ワッフル" class="menu_img">
+							<p>ストロベリーワッフル</p>
+							<p>480円</p>
+						</div>
+						<div class="menu_innar">
+							<img src="img\cup-of-coffee.jpg" alt="ブラックコーヒー" class="menu_img">
+							<p>ブラックコーヒー</p>
+							<p>480円</p>
+						</div>
+						<div class="menu_innar">
+							<img src="img\coffeedrinck.jpg" alt="カプチーノ" class="menu_img">
+							<p>カプチーノ</p>
+							<p>680円</p>
+						</div>
+						<div class="menu_innar">
+							<img src="img\coffeemoca.jpg" alt="カフェモカ" class="menu_img">
+							<p>カフェモカ</p>
+							<p>680円</p>
+						</div>
+					</div>
+					<div class="access_wrapper">
+						<p class="title" id="accesslink">店舗案内</p>
+						<div class="map">
+							<p>XXX県XXX市XXX町9-9-9 xxxビル1階</p>
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2914.7210974162817!2d141.34837357668968!3d43.0683330900609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0b2974d2c3f903%3A0xa5e2b18cdd4a47a5!2z5pyt5bmM6aeF!5e0!3m2!1sja!2sjp!4v1758643389282!5m2!1sja!2sjp"
+								width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+								referrerpolicy="no-referrer-when-downgrade"></iframe>"
+						</div>
+					</div>
+					<p class="title" id="contactlink">お問い合わせ</p>
+					<div class="contact">
+						<div class="form_wrapper">
+							<p>フォームからお気軽にお問い合わせください</p>
+							<form action="/submit_form" method="post">
+								<label for="name">お名前</label><br>
+								<input type="text" id="name" name="username"><br>
+								<label for="email">メールアドレス</label><br>
+								<input type="email" id="email" name="useremail"><br>
+								<label for="contact_text">お問い合わせ内容</label><br>
+								<textarea rows="5" id="contact_text" name="contact_text"></textarea><br>
+								<button type="submit">送信</button>
+								<button type="reset">リセット</button>
+							</form>
+						</div>
+
+					</div>
+			</div>
+			</section>
+	</div>
+	</main>
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<script src="style.js"></script>
+</body>
+<footer>
+	<p class="copyright">&copy;2025 Cafe Forest</p>
+</footer>
+
+</html>
